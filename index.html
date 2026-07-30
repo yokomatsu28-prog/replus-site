@@ -53,7 +53,7 @@
 
   /* ---- Hero ---- */
   .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:var(--navy-deep)}
-  .hero-bg{position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,#17466e,#0b2136 70%),url("https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1920&q=80");background-size:cover;background-position:center;transform:scale(1.08);animation:kb 16s ease-out forwards}
+  .hero-bg{position:absolute;inset:0;background:url("hero.jpg");background-size:cover;background-position:center;transform:scale(1.08);animation:kb 16s ease-out forwards}
   @keyframes kb{to{transform:scale(1)}}
   .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,29,48,.9) 5%,rgba(8,29,48,.6) 50%,rgba(8,29,48,.28) 100%)}
   .hero-inner{position:relative;z-index:3;color:#fff;padding:120px 0 100px}
@@ -226,8 +226,8 @@
   .fq .ans p{font-size:14px;color:var(--muted);line-height:1.9}
 
   /* ---- CTA ---- */
-  .cta{position:relative;padding:100px 0;color:#fff;text-align:center;background:linear-gradient(135deg,#123b5e,#081d30),url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80");background-size:cover;background-position:center;background-attachment:fixed}
-  .cta::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(8,29,48,.92),rgba(14,44,71,.86))}
+  .cta{position:relative;padding:100px 0;color:#fff;text-align:center;background:url("craftsmen.jpg");background-size:cover;background-position:center;background-attachment:fixed}
+  .cta::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(8,29,48,.88),rgba(14,44,71,.8))}
   .cta-in{position:relative;z-index:2}
   .cta h2{font-size:clamp(25px,3.6vw,42px);font-weight:700;line-height:1.55;margin-bottom:16px}
   .cta h2 em{font-style:normal;color:var(--amber)}
@@ -357,7 +357,7 @@
 <section class="sec message" id="message">
   <div class="wrap msg-grid">
     <div class="msg-photo ph rv" data-ph="代表の写真が入ります" style="border-radius:12px">
-      <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80" alt="代表" onerror="this.style.display='none'">
+      
       <div class="cap"><small>代表取締役</small><b>高塚 雄斗</b></div>
     </div>
     <div class="msg-txt rv d1">
@@ -401,8 +401,8 @@
         <span>雪害の<b>屋根・雨樋</b></span><span><b>雪止め</b>・融雪</span><span>あたたかい<b>断熱</b></span><span>寒い<b>お風呂</b>対策</span><span>凍害の<b>外壁</b>補修</span>
       </div>
     </div>
-    <div class="region-visual ph rv d1" data-ph="富山の住まい・雪景色の写真が入ります" style="border-radius:12px">
-      <img src="https://images.unsplash.com/photo-1551524164-687a55dd1126?auto=format&fit=crop&w=900&q=80" alt="富山 雪 住まい" onerror="this.style.display='none'">
+    <div class="region-visual ph rv d1" data-ph="" style="border-radius:12px">
+      <img src="roof-inspection.jpg" alt="富山 雪 住まい" onerror="this.style.display='none'">
       <div class="region-stat"><div class="n">76.8<small style="font-size:18px">%</small></div><div class="l">富山の持ち家率<br>（全国2位）</div></div>
     </div>
   </div>
@@ -451,16 +451,16 @@
     </div>
     <div class="work-grid" style="margin-top:48px;text-align:left">
       <div class="work rv">
-        <div class="imgwrap ph" data-ph="施工写真（before/after）"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt="" onerror="this.style.display='none'"><span class="tag">外壁・屋根</span><span class="ba">BEFORE → AFTER</span></div>
-        <div class="body"><div class="story">富山市 K様邸</div><h5>雪で傷んだ外壁が、新築のように</h5><p>「近所の目も気になっていたけれど、見違えました」。雪害の補修と塗装で、住まいがよみがえりました。</p></div>
+        <div class="imgwrap ph" data-ph=""><img src="snowguard.jpg" alt="雪止め設置の施工イメージ"><span class="tag">雪対策</span></div>
+        <div class="body"><div class="story">施工イメージ</div><h5>落雪の不安を、雪止め設置で解消</h5><p>「屋根の雪が隣の家に落ちそうで怖い」。富山の冬の定番のお悩みに、雪止め金具の増設で応えます。</p></div>
       </div>
       <div class="work rv d1">
-        <div class="imgwrap ph" data-ph="施工写真（before/after）"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=700&q=80" alt="" onerror="this.style.display='none'"><span class="tag">水回り</span><span class="ba">BEFORE → AFTER</span></div>
-        <div class="body"><div class="story">射水市 S様邸</div><h5>寒かったお風呂が、家族の憩いの場に</h5><p>「冬でもぽかぽか。子どもと一緒のお風呂が楽しみになりました」。断熱もあわせて一新。</p></div>
+        <div class="imgwrap ph" data-ph=""><img src="bath.jpg" alt="浴室リフォームの施工イメージ"><span class="tag">水回り</span></div>
+        <div class="body"><div class="story">施工イメージ</div><h5>寒かったお風呂が、家族の憩いの場に</h5><p>「冬でもぽかぽか。子どもと一緒のお風呂が楽しみになりました」。断熱もあわせて一新。</p></div>
       </div>
       <div class="work rv d2">
-        <div class="imgwrap ph" data-ph="施工写真（before/after）"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=700&q=80" alt="" onerror="this.style.display='none'"><span class="tag">内装</span><span class="ba">BEFORE → AFTER</span></div>
-        <div class="body"><div class="story">高岡市 T様邸</div><h5>古い和室が、明るいリビングへ</h5><p>「休日、家族が自然と集まる部屋になりました」。間取り変更とクロス・床の張り替えで。</p></div>
+        <div class="imgwrap ph" data-ph=""><img src="living.jpg" alt="内装リフォームの施工イメージ"><span class="tag">内装</span></div>
+        <div class="body"><div class="story">施工イメージ</div><h5>古い和室が、明るいリビングへ</h5><p>「休日、家族が自然と集まる部屋になりました」。間取り変更とクロス・床の張り替えで。</p></div>
       </div>
     </div>
     <div class="rv d2" style="margin-top:42px"><a href="works.html" class="btn btn-g" style="background:var(--navy)">施工事例をもっと見る →</a></div>
@@ -551,6 +551,7 @@
           <li>訪問販売による契約はクーリングオフ（書面受領後8日以内）が可能です。</li>
           <li>ご相談・お見積りは無料。無理な営業はいたしません。</li>
           <li>対応エリア：富山市および近隣市町村</li>
+          <li>掲載写真の一部はイメージです。</li>
         </ul>
       </div>
     </div>

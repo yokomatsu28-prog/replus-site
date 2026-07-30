@@ -63,6 +63,7 @@
   .ph{position:relative;background:linear-gradient(135deg,#dfe7ec,#eef3f6);overflow:hidden}
   .ph::before{content:attr(data-ph);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#9fb0bc;font-size:12.5px;letter-spacing:.1em;text-align:center;padding:16px}
   .imgwrap{aspect-ratio:4/3}
+  .imgwrap>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
   .imgwrap .tag{position:absolute;left:14px;top:14px;background:var(--green);color:#fff;font-size:11px;padding:5px 12px;border-radius:20px;font-weight:700;z-index:2}
   .imgwrap .ba{position:absolute;right:14px;top:14px;background:rgba(8,29,48,.8);color:#fff;font-size:10px;padding:4px 10px;border-radius:20px;letter-spacing:.08em;z-index:2}
   .case .body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
@@ -163,7 +164,7 @@
       <article class="case rv" data-c="roof">
         <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">屋根・外壁</span><span class="ba">BEFORE → AFTER</span></div>
         <div class="body">
-          <div class="where">富山市 K様邸｜築22年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">雪で傷んだ外壁が、新築のような表情に</h3>
           <div class="row"><span class="l nayami">悩み</span><p>冬の雪害でひび割れが広がり、近所の目も気になっていた。</p></div>
           <div class="row"><span class="l teian">提案</span><p>凍害に強い塗料での外壁塗装と、傷んだ雨樋の交換をセットで。</p></div>
@@ -173,9 +174,9 @@
       </article>
       <!-- 2 -->
       <article class="case rv d1" data-c="water">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">水回り</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="bath.jpg" alt="浴室リフォームの施工イメージ"><span class="tag">水回り</span></div>
         <div class="body">
-          <div class="where">射水市 S様邸｜築25年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">寒かったお風呂が、家族の憩いの場に</h3>
           <div class="row"><span class="l nayami">悩み</span><p>タイルのお風呂が冬は冷たく、子どもが嫌がっていた。</p></div>
           <div class="row"><span class="l teian">提案</span><p>断熱性の高いユニットバスへの交換と、浴室窓の断熱化。</p></div>
@@ -185,9 +186,9 @@
       </article>
       <!-- 3 -->
       <article class="case rv d2" data-c="interior">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">内装</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="living.jpg" alt="リビングリフォームの施工イメージ"><span class="tag">内装</span></div>
         <div class="body">
-          <div class="where">高岡市 T様邸｜築30年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">古い和室が、家族の集まる明るいリビングへ</h3>
           <div class="row"><span class="l nayami">悩み</span><p>使わなくなった和室が物置状態。家全体が暗い印象だった。</p></div>
           <div class="row"><span class="l teian">提案</span><p>間取り変更でリビングと一体化。床・クロスを明るい色に。</p></div>
@@ -197,9 +198,9 @@
       </article>
       <!-- 4 -->
       <article class="case rv" data-c="roof">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">雨漏り</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="roof-inspection.jpg" alt="屋根点検の施工イメージ"><span class="tag">雨漏り</span></div>
         <div class="body">
-          <div class="where">富山市 M様邸｜築18年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">突然の雨漏りに、原因調査から迅速対応</h3>
           <div class="row"><span class="l nayami">悩み</span><p>大雨の日に天井にシミが。原因が分からず不安だった。</p></div>
           <div class="row"><span class="l teian">提案</span><p>散水調査で浸入経路を特定し、板金部の補修と防水処理。</p></div>
@@ -211,7 +212,7 @@
       <article class="case rv d1" data-c="outdoor">
         <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">外構</span><span class="ba">BEFORE → AFTER</span></div>
         <div class="body">
-          <div class="where">富山市 Y様邸</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">雪かきがラクになる、土間コンとカーポート</h3>
           <div class="row"><span class="l nayami">悩み</span><p>砂利の駐車場は雪かきが大変で、車の霜取りも毎朝の負担。</p></div>
           <div class="row"><span class="l teian">提案</span><p>土間コンクリート打設と、積雪に強いカーポートの設置。</p></div>
@@ -221,9 +222,9 @@
       </article>
       <!-- 6 -->
       <article class="case rv d2" data-c="water">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">キッチン</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="kitchen.jpg" alt="キッチンリフォームの施工イメージ"><span class="tag">キッチン</span></div>
         <div class="body">
-          <div class="where">砺波市 H様邸｜築20年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">対面キッチンで、料理しながら家族と会話</h3>
           <div class="row"><span class="l nayami">悩み</span><p>壁向きのキッチンで、料理中は家族に背を向けたままだった。</p></div>
           <div class="row"><span class="l teian">提案</span><p>対面式への変更と、収納量の多いシステムキッチンを提案。</p></div>
@@ -233,9 +234,9 @@
       </article>
       <!-- 7 -->
       <article class="case rv" data-c="outdoor">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">害虫駆除</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="crawlspace.jpg" alt="床下点検の施工イメージ"><span class="tag">害虫駆除</span></div>
         <div class="body">
-          <div class="where">富山市 N様邸｜築35年</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">シロアリの不安を、点検から駆除まで一貫対応</h3>
           <div class="row"><span class="l nayami">悩み</span><p>羽アリを見かけて不安に。床下の状態も分からなかった。</p></div>
           <div class="row"><span class="l teian">提案</span><p>床下点検で状況を写真報告。駆除と予防処理、傷んだ土台の補修まで。</p></div>
@@ -245,9 +246,9 @@
       </article>
       <!-- 8 -->
       <article class="case rv d1" data-c="roof">
-        <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">雪対策</span><span class="ba">BEFORE → AFTER</span></div>
+        <div class="imgwrap ph" data-ph=""><img src="snowguard.jpg" alt="雪止め設置の施工イメージ"><span class="tag">雪対策</span></div>
         <div class="body">
-          <div class="where">立山町 W様邸</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">落雪の心配をなくす、雪止めの後付け設置</h3>
           <div class="row"><span class="l nayami">悩み</span><p>屋根からの落雪が隣家に届きそうで、冬のたびにヒヤヒヤ。</p></div>
           <div class="row"><span class="l teian">提案</span><p>屋根材に合った雪止め金具の増設と、雨樋の補強。</p></div>
@@ -259,7 +260,7 @@
       <article class="case rv d2" data-c="interior">
         <div class="imgwrap ph" data-ph="施工写真（before / after）"><span class="tag">内装</span><span class="ba">BEFORE → AFTER</span></div>
         <div class="body">
-          <div class="where">富山市 A様邸</div>
+          <div class="where">施工イメージ</div>
           <h3 class="serif">畳とふすまの張り替えで、和室が見違える</h3>
           <div class="row"><span class="l nayami">悩み</span><p>日焼けした畳とふすまで、お客様を通すのがためらわれた。</p></div>
           <div class="row"><span class="l teian">提案</span><p>畳の表替えと、ふすま・障子の張り替えをまとめて。</p></div>
@@ -269,7 +270,7 @@
       </article>
     </div>
 
-    <div class="note">※ 掲載中の事例は構成イメージです。公開時には、リプラス様の実際の施工写真・内容・費用に差し替えます（費用欄は「〇〇万円台」など幅のある表記がおすすめです）。</div>
+    <div class="note">※ 掲載中の事例・写真はイメージです（写真の一部はAI生成）。実際の施工写真・内容に順次差し替えていきます。</div>
   </div>
 </section>
 
@@ -304,6 +305,7 @@
         <ul style="font-size:12px;line-height:1.9;color:rgba(255,255,255,.55)">
           <li>訪問販売による契約はクーリングオフ（書面受領後8日以内）が可能です。</li>
           <li>ご相談・お見積りは無料。無理な営業はいたしません。</li>
+          <li>掲載写真の一部はイメージです。</li>
         </ul>
       </div>
     </div>
